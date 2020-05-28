@@ -5,7 +5,6 @@ def reverse_each_word(string)
   word_reverse.join(" ")
 end 
 
-
 def reverse_each_word(sentence)
   reversed_word = []
   sentence.split.collect {|str|
